@@ -299,19 +299,19 @@ function home() {
         <div class="brands">
             <div class="small-container">
                 <div class="row">
-                    <div class="col-5">
+                    <div class="column">
                         <img src={logog1} />
                     </div>
-                    <div class="col-5">
+                    <div class="column">
                         <img src={logog2} />
                     </div>
-                    <div class="col-5">
+                    <div class="column">
                         <img src={logog3} />
                     </div>
-                    <div class="col-5">
+                    <div class="column">
                         <img src={logog4} />
                     </div>
-                    <div class="col-5">
+                    <div class="column">
                         <img src={logog5} />
                     </div>
                 </div>
