@@ -29,6 +29,7 @@ import logog2 from "../images/logo-oppo.png";
 import logog3 from "../images/logo-coca-cola.png";
 import logog4 from "../images/logo-paypal.png";
 import logog5 from "../images/logo-philips.png";
+import logoW from "../images/logo-white.png";
 
 function home() {
     return (
@@ -318,6 +319,38 @@ function home() {
             </div>
         </div>
 
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="footer-col-1">
+						<h3>Doownload Our App</h3>
+						<p>Download App for Android and ios mobile phone. </p>
+					</div>
+					<div class="footer=col-2">
+						<img src={logoW}></img>
+						<p>Our Purpose Is To Sustainably MAke the Please and Benefits of Sports Accessible to the Many. </p>
+					</div>
+					<div class="footer-col-3">
+						<h3>Useful Links</h3>
+						<ul>
+							<li>Coupans</li>
+							<li>Blog Post</li>
+							<li>Return Policy</li>
+							<li>Join Affiliate</li>
+						</ul>
+					</div>
+					<div class="footer-col-4">
+						<h3>Follow us</h3>
+						<ul>
+							<li>Coupans</li>
+							<li>Twitter</li>
+							<li>Instagram</li>
+							<li>YouTube</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 
     </div>
     );
