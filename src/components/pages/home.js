@@ -30,6 +30,9 @@ import logog3 from "../images/logo-coca-cola.png";
 import logog4 from "../images/logo-paypal.png";
 import logog5 from "../images/logo-philips.png";
 import logoW from "../images/logo-white.png";
+import logoPlay from "../images/play-store.png";
+import logoApp from "../images/app-store.png";
+import imagemenu from "../images/menu.png";
 
 function home() {
     return (
@@ -42,7 +45,7 @@ function home() {
 			<img src={imagelogo} style={{width: "125px"}} />
 		</div>
 		<nav>
-			<ul>
+			<ul id="MenuItems">
 				<li><a href="">Home</a></li>
 				<li><a href="">Products</a></li>
 				<li><a href="">About</a></li>
@@ -50,7 +53,8 @@ function home() {
 				<li><a href="">Account</a></li>
 			</ul>
 		</nav>
-		<img src={imagecart} style={{width: "30px", height: "30px"}} />
+		<img src={imagecart} style={{width: "30px", height: "30px", marginTop: "-23px"}} />
+		<img src={imagemenu} style={{marginTop: "-18px"}} class="menu-icon" onClick="menutoggle()"/>
 	</div>
 	<div class="row">
 		<div class="col-2">
@@ -329,6 +333,10 @@ function home() {
 					<div class="footer=col-2">
 						<img src={logoW}></img>
 						<p>Our Purpose Is To Sustainably MAke the Please and Benefits of Sports Accessible to the Many. </p>
+						<div class="app-logo">
+							<img src={logoPlay} />
+							<img src={logoApp} />
+						</div>
 					</div>
 					<div class="footer-col-3">
 						<h3>Useful Links</h3>
@@ -349,10 +357,15 @@ function home() {
 						</ul>
 					</div>
 				</div>
+				<hr></hr>
+				<p class="copyright">Copyright 2021 - Sobitha PRoductions</p>
+				
 			</div>
 		</div>
-
     </div>
     );
+	
+
 };
+
  export default home;
