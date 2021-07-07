@@ -342,7 +342,7 @@ function home() {
 					<div class="footer-col-4">
 						<h3>Follow us</h3>
 						<ul>
-							<li>Coupans</li>
+							<li>Facebook</li>
 							<li>Twitter</li>
 							<li>Instagram</li>
 							<li>YouTube</li>
