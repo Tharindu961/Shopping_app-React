@@ -98,6 +98,15 @@ function products() {
 				<p>Rs50.00</p>
 			</div>
 		</div>
+
+        <div class="page-btn">
+             <span>1</span>
+             <span>2</span>
+             <span>3</span>
+             <span>4</span>
+             <span>&#8594;</span>
+        </div>
+
 	</div>
 
 		<div class="footer">
