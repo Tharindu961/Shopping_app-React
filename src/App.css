@@ -288,7 +288,11 @@ select:focus{
 	height: 40px;
 	text-align: center;
 	line-height: 40px;
-	cursor: pointer;
+	cursor: pointer ;
+}
+.page-btn span:hover{
+	background: #ff523b;
+	color: #fff;
 }
 
 @media only screen and (max-width: 800px) {

@@ -33,6 +33,7 @@ import logoW from "../images/logo-white.png";
 import logoPlay from "../images/play-store.png";
 import logoApp from "../images/app-store.png";
 import imagemenu from "../images/menu.png";
+import Products from "./products";
 
 function home() {
     return (

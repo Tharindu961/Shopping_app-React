@@ -12,6 +12,10 @@ import logoW from "../images/logo-white.png";
 import logoPlay from "../images/play-store.png";
 import logoApp from "../images/app-store.png";
 import imagemenu from "../images/menu.png";
+import pro5 from "../images/product-5.jpg";
+import pro6 from "../images/product-6.jpg";
+import pro7 from "../images/product-7.jpg";
+import pro8 from "../images/product-8.jpg";
 
 function products() {
     return (
@@ -87,6 +91,56 @@ function products() {
 			</div>
 			<div class="col-4">
 				<img src={pro4} />
+				<h4>Red Printed T-Shirt</h4>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i>
+				</div>
+				<p>Rs50.00</p>
+			</div>
+		</div>
+        <div class="row">
+			<div class="col-4">
+				<img src={pro5}/>
+				<h4>Red Printed T-Shirt</h4>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i>
+				</div>
+				<p>Rs50.00</p>
+			</div>
+			<div class="col-4">
+				<img src={pro6} />
+				<h4>Red Printed T-Shirt</h4>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i>
+				</div>
+				<p>Rs50.00</p>
+			</div>
+			<div class="col-4">
+				<img src={pro7}/>
+				<h4>Red Printed T-Shirt</h4>
+				<div class="rating">
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i>
+				</div>
+				<p>Rs50.00</p>
+			</div>
+			<div class="col-4">
+				<img src={pro8} />
 				<h4>Red Printed T-Shirt</h4>
 				<div class="rating">
 					<i class="fa fa-star"></i>
