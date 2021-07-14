@@ -4,6 +4,7 @@ import './App.css';
 import Home from "./components/pages/home";
 import Products from "./components/pages/products";
 import ProductDetails from "./components/pages/productdetails";
+import Cart from "./components/pages/cart";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Switch>
           <Route exact path="/products" component={Products}></Route>
           <Route exact path="/productdetails" component={ProductDetails}></Route>
+          <Route exact path="/cart" component={Cart}></Route>
         </Switch>
     </Router>
   );
