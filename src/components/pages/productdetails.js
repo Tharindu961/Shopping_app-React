@@ -12,6 +12,7 @@ import logoW from "../images/logo-white.png";
 import logoPlay from "../images/play-store.png";
 import logoApp from "../images/app-store.png";
 import imagemenu from "../images/menu.png";
+import gal1 from "../images/gallery-1.jpg";
 
 function productdetails() {
     return (
@@ -35,7 +36,34 @@ function productdetails() {
 	</div>
 </div>
 
-
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src={gal1} style={{width: "100%"}} />
+        </div>
+        <div class="col-2">
+            <p>Home / T-Shirt</p>
+            <h1>Red Printed T-Shirt by HRX</h1>
+            <h4>Rs.50.00</h4>
+            <select>
+                <option>Select Size</option>
+                <option>XXL</option>
+                <option>XL</option>
+                <option>Large</option>
+                <option>Medium</option>
+                <option>Small</option>
+            </select>
+            <input type="number" value="1" />
+                <a href="" class="btn">Add To Cart</a>
+                <h3>Product Details</h3>
+            <p>Give your summer wardrobe a style upgrade with the HRX
+                Men's Active T-Shirt. Team it with a pair of shorts for
+                your morning workout or a denims for an evening out with
+                the guys.
+            </p>
+        </div>
+    </div>
+</div>
 
 	<div class="small-container">
 
