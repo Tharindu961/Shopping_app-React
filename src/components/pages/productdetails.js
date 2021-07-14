@@ -13,6 +13,9 @@ import logoPlay from "../images/play-store.png";
 import logoApp from "../images/app-store.png";
 import imagemenu from "../images/menu.png";
 import gal1 from "../images/gallery-1.jpg";
+import gal2 from "../images/gallery-2.jpg";
+import gal3 from "../images/gallery-3.jpg";
+import gal4 from "../images/gallery-4.jpg";
 
 function productdetails() {
     return (
@@ -40,6 +43,22 @@ function productdetails() {
     <div class="row">
         <div class="col-2">
             <img src={gal1} style={{width: "100%"}} />
+
+            <div class="small-img-row">
+                <div class="small-img-col">
+                    <img src={gal1} style={{width: "100%"}} />
+                </div>
+                <div class="small-img-col">
+                    <img src={gal2} style={{width: "100%"}} />
+                </div>
+                <div class="small-img-col">
+                    <img src={gal3} style={{width: "100%"}} />
+                </div>
+                <div class="small-img-col">
+                    <img src={gal4} style={{width: "100%"}} />
+                </div>
+            </div>
+
         </div>
         <div class="col-2">
             <p>Home / T-Shirt</p>
@@ -55,7 +74,7 @@ function productdetails() {
             </select>
             <input type="number" value="1" />
                 <a href="" class="btn">Add To Cart</a>
-                <h3>Product Details</h3>
+                <h3>Product Details <i class="fa fa-indent"></i></h3>
             <p>Give your summer wardrobe a style upgrade with the HRX
                 Men's Active T-Shirt. Team it with a pair of shorts for
                 your morning workout or a denims for an evening out with
@@ -64,6 +83,13 @@ function productdetails() {
         </div>
     </div>
 </div>
+
+        <div class="small-container">
+            <div class="row row-2">
+                <h2>Related Products</h2>
+                <p>View More</p>
+            </div>
+        </div>
 
 	<div class="small-container">
 
