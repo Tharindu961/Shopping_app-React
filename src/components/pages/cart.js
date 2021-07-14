@@ -8,6 +8,9 @@ import logoW from "../images/logo-white.png";
 import logoPlay from "../images/play-store.png";
 import logoApp from "../images/app-store.png";
 import imagemenu from "../images/menu.png";
+import buy1 from "../images/buy-1.jpg";
+import buy2 from "../images/buy-2.jpg";
+import buy3 from "../images/buy-3.jpg";
 
 function cart() {
     return (
@@ -31,19 +34,79 @@ function cart() {
 	</div>
 </div>
 
-        <div class="small-container">
-            <table>
+        <div class="small-container cart-page">
+            <table class="tbl">
                 <tr>
                     <th>Product</th>
                     <th>Quantity</th>
                     <th>Subtotal</th>
                 </tr>
                 <tr>
-                    <td>Product name</td>
+                    <td>
+                        <div class="cart-info">
+                            <img src={buy1} />
+                            <div>
+                                <p>Red Printed Tshirt</p>
+                                <small>Price: Rs.50.00</small>
+                                <br></br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
                     <td><input type="number" value="1" /></td>
                     <td>Rs.50.00</td>
                 </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src={buy2} />
+                            <div>
+                                <p>Red Printed Tshirt</p>
+                                <small>Price: Rs.50.00</small>
+                                <br></br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1" /></td>
+                    <td>Rs.75.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src={buy3} />
+                            <div>
+                                <p>Red Printed Tshirt</p>
+                                <small>Price: Rs.50.00</small>
+                                <br></br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1" /></td>
+                    <td>Rs.55.00</td>
+                </tr>
             </table>
+
+            <div class="total-price">
+
+                <table class="tbl">
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>Rs. 180.00</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>Rs. 35.00</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>Rs. 215.00</td>
+                    </tr>
+                </table>
+
+            </div>
+
         </div>
 
 		<div class="footer">

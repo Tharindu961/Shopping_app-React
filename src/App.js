@@ -5,7 +5,7 @@ import Home from "./components/pages/home";
 import Products from "./components/pages/products";
 import ProductDetails from "./components/pages/productdetails";
 import Cart from "./components/pages/cart";
-
+import Account from "./components/pages/account";
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
           <Route exact path="/products" component={Products}></Route>
           <Route exact path="/productdetails" component={ProductDetails}></Route>
           <Route exact path="/cart" component={Cart}></Route>
+          <Route exact path="/account" component={Account}></Route>
         </Switch>
     </Router>
   );

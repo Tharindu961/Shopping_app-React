@@ -372,3 +372,69 @@ input:focus{
 	flex-basis: 24%;
 	cursor: pointer;
 }
+
+.cart-page{
+	margin: 80px auto;
+}
+.tbl{
+	width: 100%;
+	border-collapse: collapse;
+}
+.cart-info{
+	display: flex;
+	flex-wrap: wrap;
+}
+.tbl th{
+	text-align: left;
+	padding: 5px;
+	color: #fff;
+	background: #ff523b;
+	font-weight: normal;
+}
+.tbl td{
+	padding: 10px 5px;
+}
+.tbl td input{
+	width: 40px;
+	height: 30px;
+	padding: 5px;
+}
+.tbl a{
+	color: #ff523b;
+	font-size: 12px;
+}
+.tbl img{
+	width: 120px;
+	height: 120px;
+	margin-right: 15px;
+}
+.total-price{
+	display: flex;
+	justify-content: flex-end;
+}
+.total-price .tbl{
+	border-top: 3px solid #ff523b;
+	width: 100%;
+	max-width: 405px;
+}
+.tbl td:last-child{
+	text-align: right;
+}
+.tbl th:last-child{
+	text-align: right;
+}
+
+.account-page{
+	padding: 50px 0;
+	background: radial-gradient(#fff,#ffd6d6);
+}
+.form-container{
+	background: #fff;
+	width: 300px;
+	height: 400px;
+	position: relative;
+	text-align: center;
+	padding: 20px 0;
+	margin: auto;
+	box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+}
